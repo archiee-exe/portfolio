@@ -27,7 +27,7 @@ function setup() {
   loY1=0;
   loX2= random(1,4);
   loY2=random(400,700);
-  wallpaper=loadImage("fish/assets/fishbck.jpg");
+  wallpaper=loadImage("/dma-portfolio/fish/assets/fishbck.jpg");
   
 
 //let k = color();
