@@ -47,7 +47,7 @@ function setup() {
 
 push();
 
-     fish1(color(45,5,25), loX1, loY1, 60,40,2, r1);
+     fish1(color(random(45),random(5,55),random(225)), loX1, loY1, 60,40,2, r1);
    r1=atan((loY1+random(10))/(loX1));
     if ((loX1 < 0) || (loX1 > width)) {
       speedX = -speedX} 
@@ -68,7 +68,7 @@ push();
     loY1 += speedY;
 
     //dog fish here
-    fish2(color(50,200,20),mouseX-150,(mouseY/3) +100,40,40,1.5,theta);
+    fish2(color(random(50),200,random(20)),mouseX-150,(mouseY/3) +100,40,40,1.5,theta);
     console.log(theta + "=angle" + " of radio active fish");
     
 
