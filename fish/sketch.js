@@ -18,7 +18,7 @@ function setup() {
  loX = height / 2;
   loY = width / 2;
   counter = 0;
-  randY=ranodm(200,400);
+  randY=random(200,400);
   x = random(100,300);
   angleMode(DEGREES);
   hu1=color(random(45,120),random(5,155),random(225));
