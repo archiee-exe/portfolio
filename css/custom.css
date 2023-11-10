@@ -1,6 +1,6 @@
 body {
 
-color:#660044;
+color:#BEE5B0;
 background-color: #D9E3DA;
 
 }
@@ -20,15 +20,15 @@ a:link {
 
 a:visited {
     text-decoration: none;
-    color: 660000;
+    color: #660000;
 }
 a:hover {
     text-decoration: none;
     color: #f00;
 }
-a:acti#BEE5B0
+a:active{
     text-decoration: none;
-    color: #BB772D;
+    color: #BEE5B0;
 }
 
 td, th {
