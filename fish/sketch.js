@@ -21,7 +21,7 @@ function setup() {
   randY=ranodm(200,400);
   x = random(100,300);
   angleMode(DEGREES);
-  hu1=color(random(45),random(5,55),random(225));
+  hu1=color(random(45,120),random(5,155),random(225));
   hu2=color(random(50),200,random(20));
   r1=0;
   r2=0;
