@@ -2,11 +2,11 @@ let counter;
 let speedX, speedY, loX, loY, loX1,loY1;
 let speedX2, speedY2,loX2,loY2;
 let theta;
-let x;
+let x, ranY;
 let r1,r2,r3;
 let wallpaper;
 let rot1;
-let hu1,hu2
+let hu1,hu2;
 
 function setup() {
   createCanvas(1000, 720);
@@ -18,6 +18,7 @@ function setup() {
  loX = height / 2;
   loY = width / 2;
   counter = 0;
+  randY=ranodm(200,400);
   x = random(100,300);
   angleMode(DEGREES);
   hu1=color(random(45),random(5,55),random(225));
@@ -76,7 +77,7 @@ push();
     
 
     //redfish  function fish3(k,lx,ly,d,d2,sc,rot)
-    fish3(color(200,0,25),loX,200,40,25,1,r2);
+    fish3(color(200,0,25),loX,randY,40,25,1,r2);
     r2=random(5);
     if ((loX < 0) || (loX > width)) {
      speedX1 = -speedX1};  
