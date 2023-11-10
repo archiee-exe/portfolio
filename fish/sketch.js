@@ -2,7 +2,7 @@ let counter;
 let speedX, speedY, loX, loY, loX1,loY1;
 let speedX2, speedY2,loX2,loY2;
 let theta;
-let x, ranY;
+let x, randY;
 let r1,r2,r3;
 let wallpaper;
 let rot1;
