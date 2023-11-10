@@ -6,6 +6,7 @@ let x;
 let r1,r2,r3;
 let wallpaper;
 let rot1;
+let hu1,hu2
 
 function setup() {
   createCanvas(1000, 720);
@@ -18,7 +19,9 @@ function setup() {
   loY = width / 2;
   counter = 0;
   x = random(100,300);
-  angleMode(DEGREES);   
+  angleMode(DEGREES);
+  hu1=color(random(45),random(5,55),random(225));
+  hu2=color(random(50),200,random(20));
   r1=0;
   r2=0;
   r3=0;
@@ -30,7 +33,7 @@ function setup() {
   wallpaper=loadImage("/dma-portfolio/fish/assets/fishbck.jpg");
   
 
-//let k = color();
+
 }
 
 
@@ -47,7 +50,7 @@ function setup() {
 
 push();
 
-     fish1(color(random(45),random(5,55),random(225)), loX1, loY1, 60,40,2, r1);
+     fish1(hu1, loX1, loY1, 60,40,2, r1);
    r1=atan((loY1+random(10))/(loX1));
     if ((loX1 < 0) || (loX1 > width)) {
       speedX = -speedX} 
@@ -68,7 +71,7 @@ push();
     loY1 += speedY;
 
     //dog fish here
-    fish2(color(random(50),200,random(20)),mouseX-150,(mouseY/3) +100,40,40,1.5,theta);
+    fish2(hu2,mouseX-100,(mouseY/3) +100,40,40,1.5,theta);
     console.log(theta + "=angle" + " of radio active fish");
     
 
